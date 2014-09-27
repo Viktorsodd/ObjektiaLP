@@ -1,0 +1,167 @@
+/*#h1-popup {
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#h2-popup {
+  font-weight: bold;
+  color: #fff;
+  font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#p-popup {
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "open sans light", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4{
+font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#popup-header {
+    font-size: 25px;
+}
+
+
+#feedback_button {
+    background-color: #DB0A5B; /*#f1c40f */
+    color: #ffffff;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+#beta-top-button {
+    background-color: #03C9A9; /*#03C9A9 */
+    color: #ffffff;
+    border-color: #03C9A9;
+    border-radius: 2px;
+
+}
+
+#beta-top-button:hover {
+    background-color: #1BBC9B;
+    color: white;
+    border-color: #1BBC9B;
+}
+
+#read-more-button {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-color: #2c3e50;
+    border-radius: 2px;
+
+}
+
+#read-more-button:hover {
+    background-color: #1BBC9B;
+    color: white;
+    border-color: #1BBC9B;
+}
+
+#happy{
+    font-size: 2em;
+    color: #00B16A;
+    opacity: 0.9;
+
+}
+
+#unhappy{
+    font-size: 2em;
+
+
+}
+
+
+#neutral{
+    font-size: 2em;
+
+}
+
+#email_input{
+    border-color: #6C7A89;
+}
+
+/* MAP STYLING */
+#legend {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 3;
+
+
+    -webkit-transform: rotate(-90deg) translateX(-100px);
+    -webkit-transform-origin: bottom right;
+
+    -moz-transform: rotate(-90deg) translateX(-100px);
+    -moz-transform-origin: bottom right;
+
+    -ms-transform: rotate(-90deg) translateX(-100px);
+    -ms-transform-origin: bottom right;
+
+    -o-transform: rotate(-90deg) translateX(-100px);
+    -o-transform-origin: bottom right;
+
+    transform: rotate(-90deg) translateX(-100px);
+    transform-origin: bottom right;
+}
+
+
+#map {
+    position: relative;
+    z-index: 1;
+}
+#info {
+    position: absolute;
+    z-index: 2;
+    top: 78%;
+    right: 0;
+    background-color: #2980b9;
+    opacity: 0.8;
+    color: white;
+}
+
+
+@media  only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    #legend {
+        top: 50%;
+    }
+    #info{ display: none;}
+
+}
+
+@media
+(min-width : 320px)
+and (max-width : 568px) {
+
+    #legend{
+        top:50% !important;
+    }
+    #info { display: none;}
+}
+
+/* COUNTER STYLE */
+.counter {
+    color: #1E8BC3;
+    font-size: 40px;
+    font-family: cursive;
+}
